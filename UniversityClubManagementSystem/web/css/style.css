@@ -1,0 +1,85 @@
+/* General body style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Form container */
+form {
+    background: #fff;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+/* Form input fields */
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    outline: none;
+}
+
+/* Submit button */
+form input[type="submit"] {
+    width: 100%;
+    background: #3498db;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background: #2980b9;
+}
+
+/* Link below form */
+form p {
+    text-align: center;
+    font-size: 14px;
+}
+
+form p a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
